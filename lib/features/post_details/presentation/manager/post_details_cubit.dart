@@ -12,7 +12,7 @@ part 'post_details_state.dart';
 class PostDetailsCubit extends Cubit<PostDetailsStates> {
   @factoryMethod
   PostDetailsCubit(this.commentsUseCase) : super(PostDetailsInitialState());
-  PostDetailsCubit get(context)=>BlocProvider.of(context);
+  static PostDetailsCubit get(context)=>BlocProvider.of(context);
   CommentsUseCase commentsUseCase;
 
   List<CommentModel> comments = [];
@@ -22,8 +22,13 @@ class PostDetailsCubit extends Cubit<PostDetailsStates> {
     commentsUseCase.call(postid).then((value){
       value.fold((l){
         comments = l;
-        print(comments);
-        emit(PostDetailsCommentsSuccessState());
+        if(comments.isEmpty){
+          emit(PostDetailsCommentsEmptyState());
+
+        }else{
+          emit(PostDetailsCommentsSuccessState());
+
+        }
       }, (r){
         emit(PostDetailsCommentsErrorState(r));
       });

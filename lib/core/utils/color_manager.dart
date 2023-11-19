@@ -7,4 +7,5 @@ class ColorManager{
   static const Color backColor = Color(0xffF3F3F3);
   static Color shimmerColor = Colors.grey[500]!;
   static Color shimmerHighlightColor = Colors.grey[300]!;
+  static Color blackColor = Colors.black;
 }

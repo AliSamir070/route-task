@@ -10,4 +10,10 @@ class StringsManager{
   static String defaultError = "Error";
   static String cacheError = "cache error";
   static String noInternetError = "No Internet";
+  static String home = "Home";
+  static String postDetails = "Post Details";
+  static String showMore = "Show More";
+  static String someWrong = "Something went wrong, refresh";
+  static String userName = "User Name";
+  static String noComments = "No Comments Found";
 }
