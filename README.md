@@ -1,16 +1,18 @@
 # twasol
 
-A new Flutter project.
+A Route Academy flutter task project. This app is built with Flutter version 3.13.6 
 
-## Getting Started
+## App contains 3 screeens 
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+![Screenshot_20231119_223127_com example twasol](https://github.com/AliSamir070/route-task/assets/35662738/ed0a9f71-6eeb-4d8c-807f-1e0cbaafd50a)
+## Splash screen
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot_20231119_223700_com example twasol](https://github.com/AliSamir070/route-task/assets/35662738/ea7bdf9d-b175-4796-af79-c7999abd1ebf)
+## A screen displays posts with user information for each post
+
+
+![Screenshot_20231119_223757_com example twasol](https://github.com/AliSamir070/route-task/assets/35662738/e66e1baf-7d7c-48dd-a888-e0719cff9912)
+
+## A screen displays details an comments of post
